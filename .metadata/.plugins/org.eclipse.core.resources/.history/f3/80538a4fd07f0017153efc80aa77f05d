@@ -6,23 +6,12 @@
 //		"test":"echo \"Error: no test specified\" && exit 1",
 //		"serve":"nodemon server/server.js"
 //	},
-
-//what does this do  =============
-"scripts":{
-//		"test":"echo \"Error: no test specified\" && exit 1",
-//		"serve":"nodemon server/server.js"
-//	},
-
-
 //	"repository":{
 //		"type":"git",
 //		"url":"https://github.com/NeverStopLearning/Node_Test001.git"
 //	},
 //	"author":"",
 //	"license":"",
-//=================================
-
-
 	"dependencies":{
 		"babel-core":"^6.4.5",
 		"babel-loader":"^6.2.2",

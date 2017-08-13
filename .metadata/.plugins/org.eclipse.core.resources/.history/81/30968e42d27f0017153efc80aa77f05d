@@ -2,10 +2,6 @@
 	"name": "nodeTest001",
 	"version": "0.0.1",
 	"description": "A simple todo list app built with React, Redux, and Webpack",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"serve": "nodemon server/server.js"
-	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/NeverStopLearning/Node_Test001.git"

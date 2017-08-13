@@ -8,11 +8,6 @@
 //	},
 
 //what does this do  =============
-"scripts":{
-//		"test":"echo \"Error: no test specified\" && exit 1",
-//		"serve":"nodemon server/server.js"
-//	},
-
 
 //	"repository":{
 //		"type":"git",
