@@ -3,7 +3,7 @@ var path = require('path');
 
 var app = express();
 
-app.use(express.static('./dist'));
+app.use(express.static('./_.dist'));
 
 app.use('/',function(req, res){
 	

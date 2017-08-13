@@ -1,0 +1,15 @@
+module.exports = {
+		entry:['./client/client.js'],
+		output:{
+			path:'./dist',
+			filename:'bundle.js',
+			publicPath:'/'
+		},
+		module:{
+			loader:[
+				{
+					test:/\.js$/,
+				}
+			]
+		}
+}
