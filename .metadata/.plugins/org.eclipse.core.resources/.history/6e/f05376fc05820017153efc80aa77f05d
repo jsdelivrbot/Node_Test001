@@ -1,0 +1,21 @@
+import React from 'react';
+
+export class TextDisplay extends React.Component {
+	
+	render(){
+		return (
+		          <div>TextDisplay</div>
+		        );
+	}
+	
+	render(){
+		return (
+				<div>
+				 TextDisplay test
+				
+				</div>
+				);
+	}
+}
+
+//export default TextDisplay
