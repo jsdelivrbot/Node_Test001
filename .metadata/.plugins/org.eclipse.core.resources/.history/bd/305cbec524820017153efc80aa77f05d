@@ -10,7 +10,7 @@ class TextDisplay extends React.Component {
 				<div>
 				 {this.props.outputText}
 				 
-				 <button onClick={this.props.onClick}>Delete letter</button>
+				 <button onClick={}>Delete letter</button>
 				</div>
 				 
 				);

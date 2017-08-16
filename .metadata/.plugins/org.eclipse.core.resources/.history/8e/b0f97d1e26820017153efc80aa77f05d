@@ -34,13 +34,11 @@ class TextInput extends React.Component {
 					placeholder='Enter text'
 					value={this.state.inputText}
 					onChange={this.handleChange.bind(this)}
-									
+					onClick={this.handleClick.bind(this)}
+				
 			    />
 				 
-				<TextDisplay 
-					outputText={this.state.inputText}
-					onClick={this.handleClick.bind(this)}
-				/>
+				<TextDisplay outputText={this.state.inputText} />
 			</div>
 				
 				
