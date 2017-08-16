@@ -1,5 +1,5 @@
 import React from 'react';
-import TextDisplay from './TextDisplay.js';
+import TextInput from './TextInput.js';
 
 
 class App extends React.Component {
@@ -9,7 +9,7 @@ class App extends React.Component {
 		        <div>
 		             test2
 		             
-		             <TextDisplay />
+		             <TextInput />
 		        </div>);
 	}
 //});

@@ -1,0 +1,22 @@
+import React from 'react';
+
+class TextInput extends React.Component {
+	constructor(props){
+		super(props);
+		this.state= {inputText:'y'}
+	}
+
+	
+	render(){
+		return (
+				<input
+				    type="text" 
+					placeholder="Enter text"
+					value={this.state.inputText}
+			    />
+				 
+				);
+	}
+}
+
+export default TextInput;

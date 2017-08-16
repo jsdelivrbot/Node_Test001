@@ -1,13 +1,16 @@
 import React from 'react';
 
 class TextDisplay extends React.Component {
-	
+
+
 	render(){
+		
+
 		return (
 				<div>
-				 TextDisplay test
-				
+				 {this.props.outputText}
 				</div>
+				 
 				);
 	}
 }

@@ -1,0 +1,18 @@
+import React from 'react';
+import TextDisplay from './TextInput.js';
+
+
+class App extends React.Component {
+//var App = React.createClass({	
+	render(){
+		return (
+		        <div>
+		             test2
+		             
+		             <TextDisplay />
+		        </div>);
+	}
+//});
+}
+
+export default App;
