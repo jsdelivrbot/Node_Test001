@@ -1,18 +1,16 @@
 import React from 'react';
-import TextInput from './TextInput.js';
-
+import TodoInput from './TodoInput.js';
+import TodoList from './TodoList';
 
 class App extends React.Component {
-//var App = React.createClass({	
 	render(){
 		return (
 		        <div>
-		             test2
-		             
-		             <TextInput />
+		           <h1>Todo List</h1>
+		           <TodoInput />
+		           <TodoList />
 		        </div>);
 	}
-//});
 }
 
 export default App;

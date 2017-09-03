@@ -1,7 +1,0 @@
-var test= {
-		name:'yu',
-		id:'1'
-		
-}
-
-console.log(test);
