@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
 		devtool:'inline-source-map',
 		entry:[ //check to see what "client" is ref-ing. file or folder
-			'webpack-hot-middleware/client',
+			'webpack-hot-middleware/client.js',
 			'./client/client.js'
 		],
 		output:{

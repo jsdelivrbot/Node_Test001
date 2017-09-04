@@ -1,0 +1,17 @@
+export default function test_redcr(state, action){
+	
+	
+	switch(action.type){
+		case "ADD_TODO":
+			return Object.assign({},state, {
+							                  todos: [
+							                	  {},
+							                	  ...state.todos
+							                  ]
+							                  
+											});
+		default:
+			return state;
+	}
+	
+}

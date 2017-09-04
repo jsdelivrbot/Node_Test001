@@ -1,0 +1,14 @@
+import {createStore} from 'redux';
+
+//initiated in clientjs so that we 
+//can add middleware
+
+const initState = {
+	todo:[]
+}
+
+
+
+export default function configureStore(initialState = initState){
+	return createStore(reducer,initialState);
+}
