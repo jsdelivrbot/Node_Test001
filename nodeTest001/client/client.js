@@ -15,7 +15,7 @@ let initState = {
 }
 
 let store = configureStore(initState);
-//console.log(store);
+console.log(store);
 
 //configure and create store
 // var store = createStore(reducers, initalState)
