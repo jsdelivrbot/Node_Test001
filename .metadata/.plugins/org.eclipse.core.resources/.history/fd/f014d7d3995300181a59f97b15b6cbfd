@@ -1,0 +1,35 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+
+//what's the difference between path.join and .resolve
+module.exports = {
+		entry:'./source/index.js',
+		output:{
+			path: path.resolve(path.dirname(), '/dist'), 
+			filename: 'index_bundle.js'
+		},
+		module:{
+			rules:[
+				{
+					test:/\.js$/,
+					exclude:/node_modules/,
+					use:{
+						loader: "babel-loader",
+				        options: {
+				          presets: ["env", "react"]
+				        },
+					}
+					
+				}
+				
+			]
+		},
+		plugins: [
+			  new HtmlWebpackPlugin({
+			    title: 'My React App',
+			    template: './source/indexTemplate.html'
+			  })
+			]
+		
+}
