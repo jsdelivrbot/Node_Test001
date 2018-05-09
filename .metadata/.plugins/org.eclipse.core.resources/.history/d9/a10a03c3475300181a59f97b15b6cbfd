@@ -1,0 +1,56 @@
+module.exports = {
+	module: {
+		rules: [
+			{
+				test: /\.css$/,
+
+				use: [
+					{
+						loader: MiniCssExtractPlugin.loader
+					},
+					{
+						loader: 'css-loader',
+
+						options: {
+							sourceMap: true,
+							importLoaders: 1
+						}
+					},
+					{
+						loader: 'postcss-loader',
+
+						options: {
+							plugins: function() {
+								return [precss, autoprefixer];
+							}
+						}
+					}
+				]
+			},
+			{
+					test:/\.js/,
+					
+					use:[
+						{
+							loader:'babel-loader',
+							exclude:/node_modules/,
+							options:{								
+									presets:['react','env']								
+							}
+						}
+					]			
+					
+				}
+		]
+	},
+
+	entry: 0,
+
+	output:{
+		path: path.resolve(__dirname, 'dist')
+		filename:'bundle.js',
+		publicPath:'/'
+	},
+
+	mode: 'production'
+};

@@ -1,0 +1,4 @@
+//es5 syntax. What would es6 look like
+module.exports = {
+		entry:[], //can be an array. I believe it's where webpack should start the chain for the build 
+}
