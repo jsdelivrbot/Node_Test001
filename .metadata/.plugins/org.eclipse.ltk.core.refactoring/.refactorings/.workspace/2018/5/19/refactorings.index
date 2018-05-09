@@ -6,3 +6,5 @@
 1525843542718	Delete resource 'nodeTest001/dist'
 1525867473183	Delete 2 resources
 1525867574194	Delete resource 'nodeTest001/node_modules'
+1525886181095	Rename resource 'nodeTest001'
+1525886232811	Rename resource 'TodoApp'
