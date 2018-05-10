@@ -1,0 +1,41 @@
+import React, {Component} from 'react';
+
+
+class TextDisplay extends Component {
+	
+	constructor(props){
+		super();
+		this.state = {
+				inputText : ""
+		}
+		
+		this.handleChange = props.handleChange.bind(this);
+	}
+	render(){
+		return (
+				<div>
+					{/*TextDisplay connected*/}
+					<input 
+						type="text"
+						placeholder = "Enter Text"
+						value={this.state.inputText}
+						onChange={this.handleChange()}
+					/>
+					
+				</div>
+		)
+	}
+	
+	
+	handleChange(){
+//		e.preventDefault();
+		console.log(this);
+		
+		
+//		this.setState();
+		
+	}
+	
+}
+
+export default TextDisplay;

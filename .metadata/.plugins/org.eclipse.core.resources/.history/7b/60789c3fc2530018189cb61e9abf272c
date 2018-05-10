@@ -1,0 +1,17 @@
+import React, {Component} from 'react';
+
+
+class TextDisplay extends Component {
+	
+	
+	render(){
+		return (
+				<div>
+					Todo App connected
+				</div>
+		)
+	}
+	
+}
+
+export default TextDisplay;

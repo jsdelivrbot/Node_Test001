@@ -4,7 +4,7 @@
   "description": "Boiler plate react app",
   "main": "index.js",
   "scripts": {
-    "start":"webpack-dev-server --mode development --open --hot",
+    "start":"webpack-dev-server --mode development --hot", 
     "build":"webpack --mode production"
     
   },

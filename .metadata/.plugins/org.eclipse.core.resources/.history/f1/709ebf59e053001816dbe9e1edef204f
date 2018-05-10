@@ -1,0 +1,19 @@
+import React, {Component} from 'react';
+
+
+class TextDisplay extends Component {
+	
+	
+	render(){
+		return (
+				<div>
+					Text = {props.inputText}					
+				</div>
+		)
+	}
+	
+
+	
+}
+
+export default TextDisplay;

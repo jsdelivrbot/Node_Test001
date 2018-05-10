@@ -1,0 +1,23 @@
+import React, {Component} from 'react';
+
+
+class TextDisplay extends Component {
+	
+	
+	render(){
+		return (
+				<div>
+					{/*TextDisplay connected*/}
+					<input 
+						type="text"
+						placeHolder = "Enter Text"
+						value={this.state.inputText}
+					/>
+					
+				</div>
+		)
+	}
+	
+}
+
+export default TextDisplay;
