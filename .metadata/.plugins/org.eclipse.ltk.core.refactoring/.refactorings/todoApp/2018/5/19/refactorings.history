@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;todoApp/source/components/TextDisplay.js&apos; to &apos;TodoList.js&apos;" description="Rename resource &apos;TextDisplay.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/components/TextDisplay.js" name="TodoList.js" stamp="1526046792268" updateReferences="true"/>
+</session>

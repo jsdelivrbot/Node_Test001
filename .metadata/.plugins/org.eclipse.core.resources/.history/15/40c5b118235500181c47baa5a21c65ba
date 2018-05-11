@@ -23,13 +23,11 @@ class TextInput extends Component {
 						onChange={this.handleChange}
 					/>
 					
-					<button>Submit</button>
-					
 					<TodoList 
 						text = {this.state.inputText}
 					/>
 					
-					
+					<button>Submit</button>
 				</div>
 		)
 	}

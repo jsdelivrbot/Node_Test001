@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import TodoList from './TodoList';
+//import TextDisplay from './TextDisplay';
 
 class TextInput extends Component {
 	
@@ -23,13 +23,10 @@ class TextInput extends Component {
 						onChange={this.handleChange}
 					/>
 					
-					<button>Submit</button>
-					
-					<TodoList 
+					{/*<TextDisplay 
 						text = {this.state.inputText}
-					/>
-					
-					
+					/>}
+*/				
 				</div>
 		)
 	}

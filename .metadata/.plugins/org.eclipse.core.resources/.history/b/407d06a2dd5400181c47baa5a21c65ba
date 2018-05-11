@@ -10,7 +10,6 @@ class App extends Component {
 		return (
 				<div>
 					{/*Todo App connected*/}
-					<h1>Todo List</h1>
 					<TextInput />
 				</div>
 		)
